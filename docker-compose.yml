@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  group8my:
+    image: ${DOCKER_REGISTRY-}group8my
+    build:
+      context: .
+      dockerfile: group8my\Dockerfile
